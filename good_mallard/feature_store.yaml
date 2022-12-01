@@ -1,0 +1,19 @@
+project: good_mallard
+registry: data/registry.db
+provider: local
+offline_store:
+    type: spark
+    spark_conf:
+        spark.master: "local[*]"
+        spark.sql.warehouse.dir: "s3a://se-indonesia-cdp/data/warehouse/tablespace/managed/hive"
+        spark.hadoop.fs.s2a.s3guard.ddb.region: "us-east-1"
+        spark.yarn.access.hadoopFileSystems: "s3a://se-indonesia-cdp/"        
+        spark.ui.enabled: "false"
+        spark.eventLog.enabled: "false"
+        spark.sql.catalogImplementation: "hive"
+        spark.sql.parser.quotedRegexColumnNames: "true"
+        spark.sql.session.timeZone: "UTC"
+online_store:
+    path: data/online_store.db
+
+

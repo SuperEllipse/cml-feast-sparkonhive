@@ -1,0 +1,28 @@
+
+E
+%
+__dummy"
+__dummy_idJgood_mallard
+ö´¢œ ãã†ö´¢œ ãã†
+N
+.
+driver	driver id"	driver_idJgood_mallard
+ö´¢œ¨æï†ö´¢œ¨æï†1"$0a8aefdd-c41b-4585-934a-0b1c149fa4d3*ö´¢œ¥±‡2—
+ö
+driver_hourly_statsgood_mallarddriver"
+	conv_rate"
+acc_rate"
+avg_daily_trips2€õ$:event_timestamp*createdŠOfeast.infra.offline_stores.contrib.spark_offline_store.spark_source.SparkSource¢driver_statsÚ
+driver_stats@
+ö´¢œøİ÷†ö´¢œøİ÷†:‹
+k
+driver_activity_v1good_mallardG
+driver_hourly_stats
+	conv_rate
+acc_rate
+avg_daily_trips
+ö´¢œèµ”‡ö´¢œèµ”‡Rƒ
+€
+,feast.infra.online_stores.sqlite.SqliteTable"P
+,/home/cdsw/good_mallard/data/online_store.db good_mallard_driver_hourly_statsbevent_timestamp*createdŠOfeast.infra.offline_stores.contrib.spark_offline_store.spark_source.SparkSource¢driver_statsªgood_mallardÚ
+driver_stats
