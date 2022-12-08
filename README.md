@@ -8,7 +8,7 @@ High level instructions on setting up FEAST feature store with SPARK offline sto
 ## Key Notes
 - Use feast version 0.21 
 - Ensure that pyspark version matches spark version, without which this installation will not succeed
-- Ensure you have access to the Hive Table in se-indo-telkomsel Datawarehouse and can access the driver_stats table in default database. if you would like to create your own table then go to section Create your own table
+- Ensure you have access to the Hive Table in a Cloudera Datawarehouse(CDW) and can access the driver_stats table in default database. if you would like to create your own table then go to section Create your own table
 
 # High level steps
 Spin off a new session in CML ( Workbench ) and launch Terminal with the commands below<br>
